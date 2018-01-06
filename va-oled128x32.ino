@@ -92,9 +92,9 @@ display.setTextSize(2);
    display.println(current);display.display();
    display.setCursor(95,18); display.println("A");
   display.display();
-   if ((tensiune+.32) > 14.1)
+   if ((tensiune+.32) > 13.8)
   digitalWrite(10,LOW);
-  if ((tensiune+.32) < 14.1)
+  if ((tensiune+.32) < 13.8)
   digitalWrite(10, HIGH);
 }
 
