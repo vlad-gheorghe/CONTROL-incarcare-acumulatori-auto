@@ -94,7 +94,7 @@ display.setTextSize(2);
   display.display();
    if ((tensiune+.32) > 13.8)
   digitalWrite(10,LOW);
-  if ((tensiune+.32) < 13.8)
+  if ((tensiune+.32) < 12)
   digitalWrite(10, HIGH);
 }
 
